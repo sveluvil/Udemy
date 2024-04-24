@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style rel="stylesheet" type="text/css">
+      .parent {
+        width: 500px;
+        height: 500px;
+        background: red;
+        position: relative;
+        display: inline;
+      }
+
+      .child {
+        width: 50%;
+        height: 500px;
+        background: yellow;
+        position: absolute;
+      }
+
+      body {
+        width: 1000px;
+      }
+
+      .grandParent {
+        display: block;
+        position: relative;
+        width: 1000px;
+        height: 500px;
+        background:green;
+      }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    this div is inline.
+    <div class="child">
+    </div>
+</div>
+</body>
+</html>

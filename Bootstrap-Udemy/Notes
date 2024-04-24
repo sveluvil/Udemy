@@ -1,0 +1,47 @@
+H1 classes = h1 to h6
+lead paragraph class = lead 
+monospace para = text-monospace
+style class = font-weight-bold, font-weight-normal, font-italic
+blockquote = blockquote, blockquote-footer
+text transformations = text-lowercase, text-uppercase, text-capitalize
+Truncate = text-truncate
+List = list-unstyled, list-inline, list-inline-item
+Paragrapth = text-justify (justify to both ends)
+Text alignment = text-left, text-center, text-right
+Responsive align = text-*-left, text-*-center, text-*-right (* = sm, md, lg, xl)
+Vertical alignment = align-baseline, align-top, align-bottom, align-middle, align-text-top, align-text-bottom
+Change to inline and block = d-inline, d-block, d-inline-block
+Floating = float-left, float-right, float-none, clearfix
+Responsive Floating= float-*-left/right/none
+Position = fixed-top, sticky-top, fixed-bottom
+Text class = text-primary, text-secondary, text-success, text-info, text-warning, text-danger, text-light, text-dark, text-white, text-muted, text-black-50, text-white-50
+Background class = bg-* (same as above) bg-transparent
+To make invisible = invisible (visible:hidden)
+Margin classes = m*-1 .. m*-5 (* = t, b, l, r, x(both left and right), y(top and bottom), if omitted all sides), mx-auto to horizontal center
+Padding class = same as maring p instead of m. p*-1 to p*-5
+Width class = w-25, w-50, w-75, w-100, w-auto (25, 50, 75, 100 are percentages)
+Height class = h-25, h-50, h-75, h-100, h-auto
+Borders = border, border-top, border-bottom, border-right, border-left, 
+Border colors = border-* all contextual colors. Use it along with border class.
+Border radius = rounded, rounded-top, rounded-bottom, rounded-left, rounded-right (use along with border class), rounded-circle, rounded-0 (remove rounded)
+Button = btn-outline-* , btn-sm/lg, btn-block (block level button with full width)
+State class = active, disabled, use data-toggle="button" to create a toggle effect on buttons.
+Button groups = btn-group on outer div
+Button toolbar = div>div+div+div>buttons Outer div will have btn-toolbar, all 3 inner divs will have btn-group, then button classes on each button.
+Button vertical group = div>button*n outer div will have class btn-group-vertical
+.hidden-*-down, hidden-*-up (* = xs,sm,md,lg,xl. specified size is also included).
+
+
+button -> data-toggle="button"
+nav -> data-toggle="collapse" data-target="#navbarNav" 
+dropdown -> data-toggle="dropdown"
+Alert -> data-dismiss="alert"
+carousel -> data-ride="carousel" data-slide="prev" data-slide="next" data-target="#id" data-slide-to="0"
+Collpase -> data-toggle="collapse" data-target="#collapse1
+Tooltip -> data-toggle="tooltip" data-placement="top" data-html="true"
+Popover -> data-toggle="popover" data-placement="top" data-content="dataContent"  data-trigger="focus"
+modal -> data-toggle="modal" data-target="#mymodal" data-dismiss="modal"
+
+
+
+
